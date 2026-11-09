@@ -1,0 +1,8 @@
+// Problem 1:
+
+function multiplyValue(value: number, multiplier: number = 2): number {
+  return value * multiplier;
+}
+
+
+// Problem 2:
