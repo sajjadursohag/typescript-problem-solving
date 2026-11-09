@@ -53,20 +53,19 @@ interface Course {
   isPublished: boolean;
 }
 
-function getPopularCourses(
-  courses: Course[],
-  minStudents: number
-): Course[] { 
-  return courses.filter((course) => { 
+function getPopularCourses(courses: Course[], minStudents: number): Course[] {
+  return courses.filter((course) => {
     return course.isPublished === true && course.students >= minStudents;
-  })
+  });
 }
 
+// Problem 6:
 
+function pluckValues<T, K extends keyof T>(items: T[], key: K): T[K][] {
+  const result: T[K][] = [];
 
-
-
-
-
-
-
+  for (const item of items) {
+    result.push(item[key]);
+  }
+  return result;
+}
