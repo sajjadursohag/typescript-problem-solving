@@ -31,3 +31,16 @@ function formatCoordinate(
 
   return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
+
+// Problem 4:
+
+function concatenateArrays<T>(...arrays: T[][]): T[] {
+  const result: T[] = [];
+
+  for (const array of arrays) {
+    for (const item of array) {
+      result.push(item);
+    }
+  }
+  return result;
+}
