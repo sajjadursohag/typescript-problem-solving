@@ -1,6 +1,6 @@
-TypeScript Problem Solving Assignment 
+TypeScript Problem Solving Assignment
 
-The Assignment covers fundamental and intermediate TypeScript concepts and including: 
+The Assignment covers fundamental and intermediate TypeScript concepts and including:
 
         . Basic Types and Function.
         . Optional and Default Parameter.
@@ -10,7 +10,7 @@ The Assignment covers fundamental and intermediate TypeScript concepts and inclu
         . Generics and Rest Parameters.
         . OOP, Inheritance and access Modifiers.
 
-        Project Structure: 
+        Project Structure:
 
         |__ solutions.ts
         |__ type-narrowing.md
@@ -18,11 +18,23 @@ The Assignment covers fundamental and intermediate TypeScript concepts and inclu
         |__ README.md
 
 
-        Technology Used: 
+        Technology Used:
 
         . TypeScript
         . javaScript
         . Object-Orientd Programming
 
-        Author: 
+        Blog Posts:
+
+        1. [Type Narrowing in TypeScript](./type-narrowing.md)
+
+        2. [How Generics Work in TypeScript](./typescript-generics.md)
+
+        Repository:
+        typescript-problem-solving-assignment
+
+        Repository URL:
+        https://github.com/sajjadursohag/typescript-problem-solving.git
+
+        Author:
         Sajjadur Rahman
