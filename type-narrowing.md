@@ -1,6 +1,11 @@
 What is Type Narrowing in TypeScript?
 
+
+Introduction:
+
 TypeScript is a strongly typed programming language that helps developers write safer and more predicatble code. Type Narrowing is an important feature that allows TypeScript to identify a more specific type of a variable within a particular condition.
+
+Understandng Type Narrowing:
 
 1. Using tyeof
 
@@ -48,5 +53,6 @@ type User = {username: string};
     return person.username;
     }
 
-
+    Conclusion:
+    
     TypeScript Narrowing makes TypeScript applications more reliable and readable.

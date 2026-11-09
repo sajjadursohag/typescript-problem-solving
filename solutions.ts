@@ -1,10 +1,6 @@
-// Problem 1:
-
 function multiplyValue(value: number, multiplier: number = 2): number {
   return value * multiplier;
 }
-
-// Problem 2:
 
 function processInput(input: string | number | boolean): string | number {
   if (typeof input === "string") {
@@ -20,8 +16,6 @@ function processInput(input: string | number | boolean): string | number {
   }
 }
 
-// Problem 3:
-
 function formatCoordinate(
   coordinate: readonly [number, number, string],
 ): string {
@@ -31,8 +25,6 @@ function formatCoordinate(
 
   return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
-
-// Problem 4:
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
   const result: T[] = [];
@@ -44,8 +36,6 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
   }
   return result;
 }
-
-// Problem 5:
 
 interface Course {
   title: string;
@@ -59,8 +49,6 @@ function getPopularCourses(courses: Course[], minStudents: number): Course[] {
   });
 }
 
-// Problem 6:
-
 function pluckValues<T, K extends keyof T>(items: T[], key: K): T[K][] {
   const result: T[K][] = [];
 
@@ -69,8 +57,6 @@ function pluckValues<T, K extends keyof T>(items: T[], key: K): T[K][] {
   }
   return result;
 }
-
-// Problem 7:
 
 class Employee {
   protected name: string;
@@ -97,8 +83,6 @@ class Manager extends Employee {
     return `Manager of ${this.department}: ${this.name}`;
   }
 }
-
-// Problem 8:
 
 async function validateAgeAsync(age: number): Promise<string> {
   return new Promise<string>((resolve, reject) => {

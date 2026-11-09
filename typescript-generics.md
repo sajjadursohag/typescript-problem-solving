@@ -1,6 +1,10 @@
 How Do Generics Work in TypeScript?
 
+Introduction: 
+
 Generics are one of the most useful features of TypeScript. They allow developers to create reusable fucntions, interfaces and classes that work with different data types.
+
+Understanding Generics:
 
 A generic type is commonly represented by the Letter T.
 
@@ -19,3 +23,7 @@ key: K
 ): T[K] {
 return object[key];
 }
+
+Consclusion:
+
+Generics help developers build flexible, reusable applications.
